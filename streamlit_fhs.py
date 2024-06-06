@@ -52,7 +52,7 @@ def transform(data):
 df_pred['education'] = df_pred['education'].apply(transform)
 
 # Load the Model
-model = joblib.load('fhs_rf_model.pkl')
+model = joblib.load("fhs_rf_model.pkl")
 
 # Load the Model from Pickle
 # with open('fhs_rf_model2.pkl', 'rb') as f:
